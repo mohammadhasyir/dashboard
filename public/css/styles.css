@@ -1,0 +1,60 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(2, 10, 34);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  header{
+    color: #ffffff;
+    padding:5px 10px 30px;
+  }
+  .sidenav a {
+    padding: 18px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display:block;
+  }
+
+  .sidenav a.active{
+    color:#08bb79;
+  }
+  
+
+.topnav{
+    overflow: hidden;
+    display:block;
+    padding:8px 50px;
+    font-size:30px;
+}  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .content{
+      
+    margin-left:200px;
+  }
+
+.table td{
+  padding:30px 15px;  
+}
+
+
+.dashboard-box{
+  text-align: center;
+  padding:10px 5px;
+}
